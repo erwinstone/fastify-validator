@@ -1,6 +1,6 @@
 {
 	"name": "fastify-validator",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Fastify validation library inspired by Laravel validation mechanism",
 	"main": "validator.js",
 	"types": "validator.d.ts",
@@ -18,11 +18,11 @@
 		"fastify laravel"
 	],
 	"dependencies": {
-		"fastify-plugin": "^4.1.0",
-		"simple-body-validator": "^1.2.2"
+		"fastify-plugin": "^4.2.1",
+		"simple-body-validator": "^1.2.4"
 	},
 	"devDependencies": {
-		"fastify": "^4.4.0"
+		"fastify": "^4.6.0"
 	},
 	"publishConfig": {
 		"access": "public"
