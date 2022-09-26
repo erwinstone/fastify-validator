@@ -9,4 +9,7 @@ declare module 'fastify' {
 	interface FastifyRequest {
 		validator: typeof validator
 	}
+	interface FastifyInstance {
+		validator: typeof validator
+	}
 }

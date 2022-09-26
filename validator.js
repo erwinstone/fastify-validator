@@ -5,6 +5,7 @@ const validator = require('simple-body-validator')
 
 function fastifyValidator(fastify, _options, next) {
 	fastify.decorateRequest('validator', { getter: () => validator })
+	fastify.decorate('validator', { getter: () => validator })
 	next()
 }
 

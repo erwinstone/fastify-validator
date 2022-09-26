@@ -29,6 +29,13 @@ app.listen({ port: 8000 }, (err, address) => {
   console.log(`server listening on ${address}`)
 })
 ```
+Register Custom Validation Rules:
+```javascript
+app.register(fastifyValidator)
+app.validator.register('telephone', function (value) {
+  return /^\d{3}-\d{3}-\d{4}$/.test(value);
+})
+```
 
 ## API Reference
 
